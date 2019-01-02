@@ -1,0 +1,142 @@
+/*GOOGLE FONTS 
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+
+*/
+
+
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.blog_container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.blogbubble{
+    background-color: #e3e5e8;
+    padding-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*blogheader styling*/
+.blogheader{
+    padding: 2%;
+    margin: 2%;
+    background-color: #eee4e2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.post-preview_meta{
+    color: #5f6567;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.post-preview_meta_update{
+    color: #5f6567;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*selects the paragraph text within blogbubble*/
+.blogbubble > p {
+    margin: 2%;
+    
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body_content{
+    padding-top:  52px;
+    padding-bottom: 65px;
+    line-height: 1.444444444;
+    font-weight: 300;
+}
+
+.blog_text {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.3em;
+}
+
+
+/*section divider styler... source... https://codepen.io/lukeyphills/pen/FjygE */
+
+header {
+  position: relative;
+  height: 1200px; /*look into useing a margin bottom percentage for containing elements*/
+  background-image: linear-gradient(#FFE3C1, #f7931a);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 5vw)
+  );
+  /* change the calc height to a percentage height to get alternate responsive behavior*/
+}
+
+
+
+section {
+  margin-top: -5vw;
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+
+/*covoring the footer "message us" modal"*/
+li {
+    list-style-type: none;
+}
+
+.navbar-text > a {
+    color: inherit;
+    text-decoration: none;
+}
+.navbar-text > li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.jumbotron {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#TickContainer {
+    width: 270px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: #2f2f2f;
+    overflow: hidden;
+    border-radius: 3px;
+    color: #fefdfb;
+}
+
+#lastPrice{
+    font-size: 20px;
+}
+
+#percentChange{
+    font-size: 10px;
+}
+
+#highPrice{
+    font-size: 10px;
+}
+
+#lowPrice{
+    font-size: 10px;
+}
+
+#timeDate{
+    color: #999;
+    font-size: 8px;
+}
